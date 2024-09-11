@@ -80,3 +80,11 @@ class AudioController {
 }
 
 
+  void removeFilter() {
+    _soloud!.removeGlobalFilter(FilterType.freeverbFilter);
+  }
+
+  
+}
+
+
